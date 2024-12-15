@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Moon Prism Pixels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body background="./assets/gifs/space.gif">
+
+    <audio id="background-music" loop>
+        <source src="./assets/audios/Ending Theme - Sailor Moon.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. <!-- fallback text if audio not supported -->
+    </audio>
+    
+    <button id="music-button" class="paused cursor-point" onclick="toggleMusic()">
+        <img width="23" height="23" src="./assets/images/music.png" alt="music"/> <!-- play or pause music -->
+    </button>
+
+    <center> <!-- yes, deprecated tag, but it's the 90s - let's keep it -->
+        <table background="./assets/images/table-bg.jpg"> <!-- the defining characteristic of a 90s' website: table layouts -->
+            <tbody>
+                <tr>
+                    <td><img id="sailors-gif-header" src="./assets/gifs/sailors.gif"></td>
+                    <td>
+                        <img id="site-logo" src="./assets/images/moon-prism-pixels-header.png">
+                        <marquee><p class="blink"><a href="./sites/quiz.html" class="blink">Click to find out which Guardian Sailor you are!</a></p></marquee> <!-- in true 90s' fashion, blink text! -->
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <center>
+
+                            <a class="navigation" href="./index.html"><div class="links cursor-point" style="background-color:rgb(255, 105, 180); margin-top:10px;">Home</div></a> <!-- these buttons are in the Sailor's colors. I wonder if anyone caught that -->
+                            <a class="navigation" href="./sites/quiz.html"><div class="links cursor-point" style="background-color:#ffbb00; margin-top:10px;">Quiz</div></a>
+                            <a class="navigation" href="./sites/sailors.html"><div class="links cursor-point" style="background-color:#39cb67; margin-top:10px;">Sailors</div></a>
+                            <a class="navigation" href="./sites/polls.html"><div class="links cursor-point" style="background-color:#35c4f8; margin-top:10px;">Weekly Poll</div></a>
+                            <a class="navigation" href="./sites/guestbook.html"><div class="links cursor-point" style="background-color:rgb(242, 75, 75); margin:10px;">Guestbook</div></a>
+                            
+                            <img class="divider-small" src="./assets/gifs/divider-small.gif">
+
+                            <div class="dev-log-box">
+                                <h5 style="font-family: 'Courier New'; font-weight: 550;">Latest Updates</h5> <!-- to keep track of all the changes I've made to the site -->
+
+                                <br>
+                                <p><b>[15 Dec 24]</b> Which Guardian Are You?</p>
+                                <p>Want to check which Sailor Guardian you resemble the most? Take the quiz in the 'Quiz' section!</p>
+                                
+                                <hr>
+                                <p><b>[14 Dec 24]</b> Moon Prism Pixels</p>
+                                <p>A 90s style fansite for the Sailor Guardians! The name comes from Usagi's transformation command - 'Moon Prism Power, Make Up!'</p>
+                            </div>
+                            
+                            <img class="divider-small" src="./assets/gifs/divider-small.gif">
+
+                        </center>
+                    </td>
+                    <td style="border: 1px solid #bbb;">
+                        <span>
+                            <table id="inner-table"> <!-- holds the main content of the site -->
+                                <tbody>
+                                    <tr>
+                                        <td style="border: 0px; padding: 0px;"> &nbsp; </td> <!-- blank data cells for the aesthetics -->
+                                        <td style="border: 0px solid #bbb;" id="main-content">
+                                            <center>
+                                                <p>Are you a new Moonie?<br>Learn more about the Sailor Guardians ↓<br> <!-- each gif links to the corresponding Sailor's info site -->
+                                                <div class="sailor-gifs">
+                                                    <a href="./sites/venus.html"><img class="cursor-point" id="venus-gif" src="./assets/gifs/venus.gif"></a>
+                                                    <a href="./sites/jupiter.html"><img class="cursor-point" id="jupiter-gif" src="./assets/gifs/jupiter.gif"></a>
+                                                    <a href="./sites/moon.html"><img class="cursor-point" id="moon-gif" src="./assets/gifs/moon.gif"></a>
+                                                    <a href="./sites/mercury.html"><img class="cursor-point" id="mercury-gif" src="./assets/gifs/mercury.gif"></a>
+                                                    <a href="./sites/mars.html"><img class="cursor-point" id="mars-gif" src="./assets/gifs/mars.gif"></a>
+                                                </div>
+                                                    <i id="smaller-font">- Sailor Aurora</i> <!-- Sailor Aurora is me! -->
+                                                </p>
+                                                <img class="divider" src="./assets/images/divider.png">
+                                                <p id="poem">
+                                                    <b>'Sailors of Justice'</b> <!-- the amount of googling I did for rhymes is embarrasing -->
+                                                    <br><br>
+                                                    Under the glow of a crescent moon,<br>
+                                                    A warrior wakes to her sacred tune.<br>
+                                                    <br>
+                                                    Her tiara shines, her courage bright,<br>
+                                                    A beacon of hope in the endless night.<br>
+                                                    <br>
+                                                    By her side, her comrades stand,<br>
+                                                    A fiery heart, a healer's hand.<br>
+                                                    <br>
+                                                    The power of thunder, the whisper of seas,<br>
+                                                    Together they form the cosmos's keys.<br>
+                                                    <br>
+                                                    Their friendship glimmers like stars above,<br>
+                                                    A force unbroken, bound by love.<br>
+                                                    <br>
+                                                    Oh Sailor Moon, forever you shall remain: <br>
+                                                    A champion of love, through joy and pain.<br>
+                                                </p>
+                                                <img class="divider" src="./assets/images/divider.png">
+                                            </center>
+                                        </td>
+                                        <td style="border: 0px; padding: 0px;"> &nbsp; </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 0px solid #bbb;" valign="top"> &nbsp; </td>
+                                        <td style="border: 0px solid #bbb;" valign="top">
+                                            <center>
+                                                <p>
+                                                    You've been blessed by the power of the moon!
+                                                    <br>
+                                                    <img id="thanks-stamp" src="./assets/gifs/sailormoonstamp.gif">
+                                                    <br>
+                                                    <p class="blink">💖 Do visit again! 💖</p>
+                                                </p>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
