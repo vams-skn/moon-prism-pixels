@@ -18,6 +18,7 @@ var sparkles = 60;
 *  http://www.mf2fm.com/rv  *
 * DON'T EDIT BELOW THIS BOX *
 ****************************/
+
 var x = ox = 400;
 var y = oy = 300;
 var swide = 800;

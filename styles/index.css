@@ -42,8 +42,8 @@ td {
     border: 1pt solid #bbb;
 }
 #sailors-gif-header {
-    padding: auto;
-    width: 15rem;
+    padding-left: 2rem;
+    width: 13rem;
 }
 #site-logo {
     width: 35rem;
