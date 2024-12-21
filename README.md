@@ -7,6 +7,7 @@ Remember the days of 90s fansites? The chaos, colors, GIFs, and blinking texts? 
 Welcome to **Moon Prism Pixels**, a nostalgic fansite dedicated to the beloved *Sailor Moon* and her fellow Sailor Guardians!
 
 This project was created for the Codédex Mini Holiday Hackathon, Track 2: Now It’s Personal.
+📌 Vote for it [here.](https://www.codedex.io/community/hackathon/UetDG78Y8Rt4qBQQ0AAy)
 
 ## Overview  
 
