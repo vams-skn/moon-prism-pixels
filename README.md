@@ -1,4 +1,4 @@
-# **Moon Prism Pixels**
+# **Moon Prism Pixels 🏆**
 
 ***In the name of the Moon, I bring you retro vibes! ✨***
 
@@ -7,7 +7,8 @@ Remember the days of 90s fansites? The chaos, colors, GIFs, and blinking texts? 
 Welcome to **Moon Prism Pixels**, a nostalgic fansite dedicated to the beloved *Sailor Moon* and her fellow Sailor Guardians!
 
 This project was created for the Codédex Mini Holiday Hackathon, Track 2: Now It’s Personal.
-📌 Vote for it [here.](https://www.codedex.io/community/hackathon/UetDG78Y8Rt4qBQQ0AAy)
+
+🏆 This project won **2nd for Most Nostalgic Hack.** View it [here.](https://www.codedex.io/community/hackathon/UetDG78Y8Rt4qBQQ0AAy)
 
 ## Overview  
 
@@ -48,11 +49,7 @@ Moon Prism Power features a retro-style guestbook, where visitors can leave comm
 - GIFs, Pixel Art, Images and other assets: Pinterest, Giphy, Tenor, Cursors4U.
 
 ## Acknowledgements
-The copyright for 'Sailor Moon' is held by Naoko Takeuchi, TOEI, DiC, Kodansha, Bandai, and others.
-
-I do not claim ownership of their materials or Sailor Moon's image or likeness. No copyright infringement is intended.
-
-Moon Prism Pixels is an unofficial fansite and is not affiliated with VIZ Media, TOEI, or their representatives. 
+The copyright for 'Sailor Moon' is held by Naoko Takeuchi, TOEI, DiC, Kodansha, Bandai, and others. I do not claim ownership of their materials or Sailor Moon's image or likeness. No copyright infringement is intended. Moon Prism Pixels is an unofficial fansite and is not affiliated with VIZ Media, TOEI, or their representatives. 
 
 However, all HTML, CSS, and scripts © 2024 Vaishnavi M Sankaran. All Rights Reserved.
 
@@ -60,5 +57,3 @@ However, all HTML, CSS, and scripts © 2024 Vaishnavi M Sankaran. All Rights Res
 Come explore the world of the Sailor Guardians through a lens of retro magic. Whether you’re here for nostalgia, fun quizzes, or character lore, I hope Moon Prism Pixels captures the love and joy Sailor Moon has brought to fans for decades.
 
 🌙 [Moon Prism Power, Make Up!](https://vams-skn.github.io/moon-prism-pixels/)🌙
-
-#### Dated 15 December 2024
