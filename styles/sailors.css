@@ -1,25 +1,31 @@
 * {
     cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1073.cur), auto !important;
 }
+
 .cursor-point {
     cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1070.cur), auto !important;
 }
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+
 #main-div {
     background-color: whitesmoke;
     width: 50%;
     border-radius: 5px;
     padding: 10px;
 }
+
 tbody {
     padding: 10px;
 }
+
 td {
     padding: 10px;
     border: 1pt solid rgb(81, 79, 79);
 }
+
 table {
     border-collapse: collapse;
 }
