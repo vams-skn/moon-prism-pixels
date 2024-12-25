@@ -6,6 +6,22 @@
     cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1070.cur), auto !important;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB0B0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9446ac; 
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
