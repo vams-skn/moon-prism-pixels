@@ -30,7 +30,7 @@ To bring the 90s fansite aesthetic to life, I have:
 ### Sailor Guardian Quiz  
 Discover your inner Sailor Guardian! Answer a series of light-hearted questions, and the site will reveal which Sailor Guardian reflects your personality.
 
-In the name of the Moon, who will you become?
+*In the name of the Moon, who will you become?*
 
 ### Guestbook  
 Guestbooks were very popular on late 90s websites and were a staple feature of personal websites, fansites, and early blogs.
@@ -40,7 +40,7 @@ Moon Prism Power features a retro-style guestbook, where visitors can leave comm
 ### More to Come  
 - Hidden Sailor Moon references across the site
 - A bio page for each of the Sailors
-- A weekly poll page, where visitors can participate in fun Sailor Moon related polls.
+- A 'Playground' page, where you can play games specific to each Sailors' specialty.
 
 ## Technologies Used  
 - HTML5: Structure and content.  
