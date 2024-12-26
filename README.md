@@ -40,7 +40,7 @@ Moon Prism Power features a retro-style guestbook, where visitors can leave comm
 ### More to Come  
 - Hidden Sailor Moon references across the site
 - A bio page for each of the Sailors
-- A 'Playground' page, where you can play games specific to each Sailors' specialty.
+- A 'Fun Corner' page, where you can play games specific to each Sailors' powers.
 
 ## Technologies Used  
 - HTML5: Structure and content.  
