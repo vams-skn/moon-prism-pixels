@@ -45,3 +45,7 @@ td {
 table {
     border-collapse: collapse;
 }
+
+div {
+    margin: 0 auto;
+}

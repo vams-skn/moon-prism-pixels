@@ -53,6 +53,7 @@ table {
     width: 30rem;
     height: auto;
     border: 0;
+    margin: 0 auto;
 }
 
 #smaller-font {
@@ -69,7 +70,7 @@ td {
 }
 
 #sailors-gif-header {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     width: 13rem;
 }
 
@@ -113,6 +114,8 @@ td {
     font-size: larger;
     font-family: 'Courier New', Arial;
     cursor: pointer;
+    margin: 10px;
+    margin-left: 30px;
 }
 
 .dev-log-box {
