@@ -1,0 +1,194 @@
+body {
+    background: '../assets/gifs/mercury-night-sky.gif';
+    font: 10px calibri;
+}
+
+table {
+    font-family: calibri, verdana, arial;
+    font-size: 10px;
+    text-align: left;
+    color: #CA8E83;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+
+
+a:link,
+a:visited,
+a:active {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999;
+}
+
+b {
+    font-weight: bold;
+    color: #A9BAD8;
+}
+
+i {
+    color: #C35187;
+    font-style: normal;
+}
+
+textarea {
+    font: 9px calibri, arial;
+    letter-spacing: 1px;
+    color: #999;
+    background: #f0f0f0;
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #F4C9D5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+    background: transparent;
+}
+
+
+.title {
+    background: transparent;
+    text-transform: lowercase;
+    font-family: georgia, monospace, arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: #E0A1B3;
+    line-height: 12px;
+    padding-top: 1px;
+    padding-left: 4px;
+    margin-bottom: 4px;
+    letter-spacing: 3px;
+    border-left: 0px solid #8F4F70;
+    border-bottom: 0px solid #eee;
+}
+
+
+.navigation {
+    background: #A9BAD8;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#menu a {
+    display: inline-block;
+    background: #FFEBF1;
+    font: normal 9px 'silkscreen', monospace, georgia;
+    text-transform: uppercase;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 1px;
+    color: #C5779C;
+    border-radius: 10px;
+    border: 0px solid #48AE47;
+    line-height: 9px;
+}
+
+#menu a:hover {
+    color: #555;
+}
+
+.sitename {
+    color: #888;
+    background: #Fff;
+    padding-left: 5px;
+    padding-top: 3px;
+    border-right: 1px solid #C6D9EC;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.siteurl {
+    color: #A9BAD8;
+    font-weight: bold;
+    background: #fff;
+    padding-left: 5px;
+    padding-top: 3px;
+    line-height: 15px;
+    letter-spacing: 2px;
+}
+
+.topboxes {
+    background: #FFEBF1;
+    color: #C69183;
+    border-bottom: 1px solid #C6D9EC;
+    border-top: 1px solid #C6D9EC;
+    overflow: scroll;
+    overflow-x: hidden;
+    font: 10px calibri;
+}
+
+.topscrollbox {
+    height: 77px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+}
+
+
+.sidebar {
+    background: #fff;
+    border-right: 1px solid #C6D9EC;
+    border-left: 1px solid #C6D9EC;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.sidebar-image {
+    width: 161px;
+    padding-bottom: 4px;
+}
+
+.content {
+    background: #fff;
+    border-left: 1px solid #C6D9EC;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollbox {
+    height: 270px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+
+.bottom {
+    background: #A9BAD8;
+    color: #fff;
+    border-top: 1px solid #C6D9EC;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 20px;
+}
+
+.footer {
+    background: #A9BAD8;
+    border-top: 1px solid #ddd;
+}
+
+.credits {
+    background: transparent;
+    border-top: 10px solid #A9BAD8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
