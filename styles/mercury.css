@@ -4,6 +4,7 @@
 
 a {
     cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1070.cur), auto !important;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -28,64 +29,37 @@ body {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: monospace;
+    font-size: 0.87rem;
 }
 
 table {
-    font-size: 1rem;
     text-align: left;
-    color: #eadb7c;
-    letter-spacing: 1px;
-    line-height: 10px;
-}
-
-a:link, a:visited, a:active {
-    color: #555;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #999;
-}
-
-b {
-    font-weight: bold;
-    color: #A9BAD8;
-}
-
-i {
-    color: #C35187;
-    font-style: normal;
-}
-
-textarea {
-    font: 9px calibri, arial;
-    letter-spacing: 1px;
-    color: #999;
-    background: #f0f0f0;
 }
 
 .title {
     background: transparent;
     text-transform: lowercase;
     font-family: georgia, monospace, arial;
-    font-size: 12px;
     font-weight: bold;
     font-style: italic;
-    color: #E0A1B3;
-    line-height: 12px;
-    padding-top: 1px;
-    padding-left: 4px;
+    color: #31a0b9;
+    line-height: 2rem;
+    padding-top: 2px;
     margin-bottom: 4px;
-    letter-spacing: 3px;
-    border-left: 0px solid #8F4F70;
-    border-bottom: 0px solid #eee;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
 }
 
+.subtitle {
+    font-weight: bold;
+    color: #38b2ce;
+    font-size: 1.1rem;
+}
 
 .navigation {
     background: #A9BAD8;
-    margin-top: 0px;
+    margin-top: 0.7rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -93,16 +67,15 @@ textarea {
 #menu a {
     display: inline-block;
     background: #FFEBF1;
-    font: normal 9px 'silkscreen', monospace, georgia;
+    font: normal 1rem 'silkscreen', monospace, georgia;
     text-transform: uppercase;
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0.3rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
     letter-spacing: 1px;
     color: #C5779C;
     border-radius: 10px;
-    border: 0px solid #48AE47;
-    line-height: 9px;
+    line-height: 0.6rem;
 }
 
 #menu a:hover {
@@ -122,35 +95,14 @@ textarea {
 }
 
 .siteurl {
-    color: #A9BAD8;
+    color: gray;
     font-weight: bold;
     background: #fff;
-    padding-left: 5px;
-    padding-top: 3px;
-    line-height: 15px;
+    padding: 0.5rem;
+    line-height: 13px;
     letter-spacing: 2px;
+    font-size: small;
 }
-
-.topboxes {
-    background: #FFEBF1;
-    color: #C69183;
-    border-bottom: 1px solid #C6D9EC;
-    border-top: 1px solid #C6D9EC;
-    overflow: scroll;
-    overflow-x: hidden;
-    font: 10px calibri;
-}
-
-.topscrollbox {
-    height: 77px;
-    overflow: auto;
-    overflow-x: hidden;
-    padding-left: 4px;
-    padding-top: 4px;
-    padding-right: 4px;
-    font-size: 10px;
-}
-
 
 .sidebar {
     background: #fff;
@@ -158,11 +110,23 @@ textarea {
     border-left: 1px solid #C6D9EC;
     overflow: scroll;
     overflow-x: hidden;
+    color: #3abedc;
 }
 
 .sidebar-image {
-    width: 161px;
+    width: 100%;
     padding-bottom: 4px;
+}
+
+.info {
+    font-family: monospace;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+.topic {
+    font-weight: bolder;
+    color: #31a0b9;
 }
 
 .content {
@@ -173,14 +137,13 @@ textarea {
 }
 
 .scrollbox {
-    height: 270px;
+    height: 24rem;
     overflow: auto;
     overflow-x: hidden;
-    padding-left: 4px;
+    padding-left: 15px;
     padding-top: 4px;
-    padding-right: 4px;
+    padding-right: 10px;
 }
-
 
 .bottom {
     background: #A9BAD8;
@@ -197,8 +160,15 @@ textarea {
 }
 
 .credits {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: #C6D9EC;
     background: transparent;
     border-top: 10px solid #A9BAD8;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.credits a {
+    color: #C5779C;
 }
