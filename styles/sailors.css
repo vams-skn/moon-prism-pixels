@@ -49,3 +49,28 @@ table {
 div {
     margin: 0 auto;
 }
+
+a {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#moon {
+    color: #e53a8a;
+}
+
+#mercury {
+    color: #3abedc;
+}
+
+#mars {
+    color: rgb(197, 25, 25);
+}
+
+#jupiter {
+    color: rgb(60, 210, 60);
+}
+
+#venus {
+    color: gold;
+}
