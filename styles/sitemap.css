@@ -1,0 +1,85 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB0B0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9446ac; 
+}
+
+body {
+    padding: 2em;
+    padding-left: 5em;
+    font-family: lucida console;
+    line-height: 2;
+    font-size: 0.9em;
+    color: white;
+    background: #101010;
+}
+
+#sitemap {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    display: inline;
+    font-size: 1.6em;
+    margin: 0;
+}        
+
+h3 {
+    font-size: 1.2em;
+    margin: 0 30px;
+}        
+
+h3::before {
+    content: '\2937  ';
+}        
+
+ul {
+    list-style-type: '- ';
+    margin: 0 35px;
+}        
+
+a {
+    font-family: lucida console;
+    color: white;
+}        
+
+a:hover {
+    color: #FF8282;
+}
+
+.info {
+    display: inline;
+    color: #a0a0a0;
+    font-family: lucida console;
+    font-size: 0.7em;
+    transition: ease 0.5s;
+}
+
+.info:hover {
+    color: #FF8282;
+    cursor: pointer;
+}
+
+.custom-tooltip {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}

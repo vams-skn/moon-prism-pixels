@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../assets/favicons/favicon.ico" type="image/x-icon">
+    <title>Sitemap</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/sitemap.css">
+</head>
+<body>              
+    <h1><a href="../../index.html">Home</a></h1>
+        
+    <h3>Sites</h3>
+    <ul>
+        <li>
+            <a href="../../index.html">Moon Prism Pixels</a> <div class="info"> [homepage]</div>
+        </li>
+        <li>
+            <a href="../../sites/quiz/">'which Sailor Guardian are you?' Quiz</a>
+        </li>
+        <li>
+            Sitemap <div class="info" title="You are here">[?]</div>
+        </li>
+        <li>
+            <a href="../../sites/guestbook/">Guestbook</a> <div class="info" title="Leave a message!">[?]</div>
+        </li>
+        
+        to do:
+        <ul>
+            <li>
+                Fun Corner
+            </li>
+            <li>
+                Links
+            </li>
+            <li>
+                Site Log
+            </li>
+        </ul>
+    </ul>
+        
+    <h3>Sailors</h3>
+    <ul>
+        <li>
+            <a href="../../sites/sailors/">Sailor Sites</a> <div class="info"> [homepage]</div>
+        </li>
+        <li>
+            <a href="../../sites/sailors/mercury/">Sailor Mercury</a> 
+        </li>
+        to do:
+        <ul>
+            <li>
+                Sailor Moon
+            </li>
+            <li>
+                Sailor Mars
+            </li>
+            <li>
+                Sailor Jupiter
+            </li>
+            <li>
+                Sailor Venus
+            </li>
+        </ul>
+    </ul>
+    
+    <h3>External</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/vams-skn/moon-prism-pixels" target="_blank">GitHub</a>
+        </li>
+        <li>
+            <a href="https://neocities.org/browse" target="_blank">Neocities</a> <div class="info" title="Inspiration for 90s web design">[?]</div>
+        </li>
+        <li>
+            <a href="https://www.cursors-4u.com/" target="_blank">Cursors-4U</a> <div class="info" title="Free cursors for your sites">[?]</div>
+        </li>
+    </ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'custom-tooltip';
+            document.body.appendChild(tooltip);
+        
+            const tooltipElements = document.querySelectorAll('[title]');
+        
+            tooltipElements.forEach(el => {
+                const titleText = el.getAttribute('title');
+                el.removeAttribute('title');
+                el.dataset.tooltip = titleText;
+        
+                el.addEventListener('mousemove', function (e) {
+                    tooltip.textContent = el.dataset.tooltip;
+                    tooltip.style.left = (e.pageX + 10) + 'px';
+                    tooltip.style.top = (e.pageY + 10) + 'px';
+                    tooltip.style.opacity = 1;
+                });
+        
+                el.addEventListener('mouseleave', function () {
+                    tooltip.style.opacity = 0;
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
