@@ -1,10 +1,10 @@
 # **Moon Prism Pixels 🏆**
 
-***In the name of the Moon, I bring you retro vibes! ✨***
+***✨ In the name of the Moon, I bring you retro vibes! ✨***
 
-Remember the days of 90s fansites? The chaos, colors, GIFs, and blinking texts? Inspired by them, this project celebrates the magic of the *Sailor Moon* characters by capturing them in 90s web design.
+Remember the days of 90s fansites? The chaos, colors, GIFs, and blinking texts? Inspired by them and various sites on [neocities.org](https://neocities.org/browse), this project celebrates the magic of the *Sailor Moon* characters by capturing them in 90s web design.
 
-Welcome to **Moon Prism Pixels**, a nostalgic fansite dedicated to the beloved *Sailor Moon* and her fellow Sailor Guardians!
+Welcome to **[Moon Prism Pixels](https://vams-skn.github.io/moon-prism-pixels/)**, a nostalgic fansite dedicated to the beloved *Sailor Moon* and her fellow Sailor Guardians!
 
 This project was created for the Codédex Mini Holiday Hackathon, Track 2: Now It’s Personal.
 
@@ -12,7 +12,7 @@ This project was created for the Codédex Mini Holiday Hackathon, Track 2: Now I
 
 ## Overview  
 
-**Moon Prism Pixels** pays tribute to the iconic Sailor Guardians by offering fans and non-fans alike a chance to relive the early days of the web — complete with pixel art, animated GIFs, bright colors, and interactive sections.
+**Moon Prism Pixels** pays tribute to the iconic [Inner Senshi](https://sailormoon.fandom.com/wiki/Inner_Sailor_Guardians) by offering fans and non-fans alike a chance to relive the early days of the web — complete with pixel art, animated GIFs, bright colors, and interactive sections.
 
 Whether you’re a Moonie veteran or new to the world of Sailor Moon, this fansite promises a magical experience!  
 
@@ -49,11 +49,9 @@ Moon Prism Power features a retro-style guestbook, where visitors can leave comm
 - GIFs, Pixel Art, Images and other assets: Pinterest, Giphy, Tenor, Cursors4U.
 
 ## Acknowledgements
-The copyright for 'Sailor Moon' is held by Naoko Takeuchi, TOEI, DiC, Kodansha, Bandai, and others. I do not claim ownership of their materials or Sailor Moon's image or likeness. No copyright infringement is intended. Moon Prism Pixels is an unofficial fansite and is not affiliated with VIZ Media, TOEI, or their representatives. 
-
-However, all HTML, CSS, and scripts © 2024 Vaishnavi M Sankaran. All Rights Reserved.
+The copyright for 'Sailor Moon' is held by Naoko Takeuchi, TOEI, DiC, Kodansha, Bandai, and others. I do not claim ownership of their materials or Sailor Moon's image or likeness. No copyright infringement is intended. Moon Prism Pixels is an unofficial fansite and is not affiliated with VIZ Media, TOEI, or their representatives.
 
 ## Join the Moonlit Adventure!  
 Come explore the world of the Sailor Guardians through a lens of retro magic. Whether you’re here for nostalgia, fun quizzes, or character lore, I hope Moon Prism Pixels captures the love and joy Sailor Moon has brought to fans for decades.
 
-🌙 [Moon Prism Power, Make Up!](https://vams-skn.github.io/moon-prism-pixels/)🌙
+🎀 [Moon Prism Power, Make Up!](https://vams-skn.github.io/moon-prism-pixels/) 🎀
