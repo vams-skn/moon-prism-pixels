@@ -1,0 +1,27 @@
+[
+    {
+        "date": "9 Apr 25",
+        "title": "Mercury's Site!",
+        "description": "Created a solo site for <a href='./sites/sailors/mercury/'>Sailor Mercury!</a> This took a lot of brain-power 😴 I'm exhausted."
+    },
+    {
+        "date": "4 Apr 25",
+        "title": "Major Re-Structuring",
+        "description": "Changed the project structure completely, meaning I had to go in and edit each anchor link -_-"
+    },
+    {
+        "date": "22 Dec 24",
+        "title": "Visitor Count & Styling",
+        "description": "Added a counter for the visitors to this site and made some minor styling changes."
+    },
+    {
+        "date": "15 Dec 24",
+        "title": "Which Guardian Are You?",
+        "description": "Find which Sailor Guardian you resemble the most by taking the <a href='./sites/quiz'>quiz!</a>"
+    },
+    {
+        "date": "14 Dec 24",
+        "title": "Moon Prism Pixels",
+        "description": "A 90s style fansite for the Sailor Guardians! The name comes from Usagi's transformation command - 'Moon Prism Power, Make Up!'"
+    }
+]
