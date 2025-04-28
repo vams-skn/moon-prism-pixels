@@ -155,7 +155,7 @@
         
                     data.forEach(update => {
                         const dates = document.createElement('p');
-                        dates.innerHTML = `<b>[${update.date}]</b> ${update.title}`;
+                        dates.innerHTML = `<b><small>[${update.date}]</small></b> <br> ${update.title}`;
         
                         const desc = document.createElement('p');
                         desc.innerHTML = update.description;

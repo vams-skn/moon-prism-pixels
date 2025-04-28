@@ -1,8 +1,13 @@
 [
     {
+        "date": "19 Apr 25",
+        "title": "📌A Sitemap",
+        "description": "Added a <a href='././sites/sitemap/'>sitemap</a> to the homepage for easy navigation!"
+    },
+    {
         "date": "9 Apr 25",
-        "title": "Mercury's Site!",
-        "description": "Created a solo site for <a href='./sites/sailors/mercury/'>Sailor Mercury!</a> This took a lot of brain-power 😴 I'm exhausted."
+        "title": "🌊Mercury's Site!",
+        "description": "Created a solo site for <a href='./sites/sailors/mercury/'>Sailor Mercury!</a> This took a lot of brain-power 😴<br> I'm exhausted."
     },
     {
         "date": "4 Apr 25",
@@ -16,12 +21,12 @@
     },
     {
         "date": "15 Dec 24",
-        "title": "Which Guardian Are You?",
+        "title": "🎀Sailor Guardian Quiz🎀",
         "description": "Find which Sailor Guardian you resemble the most by taking the <a href='./sites/quiz'>quiz!</a>"
     },
     {
         "date": "14 Dec 24",
-        "title": "Moon Prism Pixels",
-        "description": "A 90s style fansite for the Sailor Guardians! The name comes from Usagi's transformation command - 'Moon Prism Power, Make Up!'"
+        "title": "✨Moon Prism Pixels✨",
+        "description": "A 90s style fansite for the Sailor Guardians!<br>The name comes from Usagi's transformation command - 'Moon Prism Power, Make Up!'"
     }
 ]
