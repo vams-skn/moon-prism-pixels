@@ -41,14 +41,6 @@ a {
     color: black;
 }
 
-#music-button {
-    position: absolute;
-    left: 95%;
-    border: none;
-    background-color: transparent;
-    padding: 1rem;
-}
-
 table {
     width: 30rem;
     height: auto;
