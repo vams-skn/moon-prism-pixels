@@ -1,5 +1,10 @@
 [
     {
+        "date": "1 Dec 25",
+        "title": "Major Re-Structuring pt.2",
+        "description": "Changed the project structure completely ONCE AGAIN, and setup autdeploy with GitHub Actions! yay automation 🥳"
+    },
+    {
         "date": "19 Apr 25",
         "title": "📌A Sitemap",
         "description": "Added a <a href='././sites/sitemap/'>sitemap</a> to the homepage for easy navigation!"

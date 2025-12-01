@@ -2,10 +2,10 @@ const audio = document.getElementById('background-music');
 function toggleMusic() {
     if (audio.paused) {
         audio.play();
-        document.getElementById('music-button').innerHTML = `<img width="23" height="23" src="./assets/images/music.png" alt="music"/>`;
+        document.getElementById('music-button').innerHTML = `<img width="23" height="23" src="../assets/images/music.png" alt="music"/>`;
     } else {
         audio.pause();
-        document.getElementById('music-button').innerHTML = `<img width="23" height="23" src="./assets/images/no-music.png" alt="no music"/>`;
+        document.getElementById('music-button').innerHTML = `<img width="23" height="23" src="../assets/images/no-music.png" alt="no music"/>`;
     }
 }
 

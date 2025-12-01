@@ -51,7 +51,7 @@ function loadQuestions() {
     questions.forEach((q, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
-        questionDiv.innerHTML = `<img style="height: 40px;" src="../../assets/gifs/twinklingstar.gif"> <h3 style="margin:0; display: inline-block; font-family: 'Courier New';">${q.question}</h3>`;
+        questionDiv.innerHTML = `<img style="height: 40px;" src="../../../assets/gifs/twinklingstar.gif"> <h3 style="margin:0; display: inline-block; font-family: 'Courier New';">${q.question}</h3>`;
         
         q.options.forEach((answer, i) => {
             questionDiv.innerHTML += `
