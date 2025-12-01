@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1073.cur), auto !important;
+}
+
+.cursor-point {
+    cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1070.cur), auto !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB0B0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9446ac; 
+}
+    
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-family: Verdana, Arial, sans-serif; /* THE fonts of old fansites */
+}
+
+.link-hide {
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+a {
+    color: black;
+}
+
+#music-button {
+    position: absolute;
+    left: 95%;
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+table {
+    width: 30rem;
+    height: auto;
+    border: 0;
+    margin: 0 auto;
+}
+
+#smaller-font {
+    font-size: 0.85em;
+}
+
+#inner-table {
+    width: 25rem;
+}
+
+td {
+    padding: 0.5rem;
+    border: 1pt solid #bbb;
+}
+
+#sailors-gif-header {
+    padding-left: 1.5rem;
+    width: 13rem;
+}
+
+#site-logo {
+    width: 35rem;
+}
+
+.divider-small {
+    width: 10rem;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: rgb(235, 171, 44);
+    text-shadow: 1px 1px #cfcf34;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.navigation {
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+.links {
+    width: 10rem;
+    display: block;
+    height: 35px;
+    text-decoration: none !important;
+    border-radius: 5px;
+    padding: 8px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Arial;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.dev-log-box {
+    width: 14rem;
+    max-height: 20rem;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 2px 9px;
+    text-align: left;
+    overflow: auto;
+}
+
+.dev-log-box > p{
+    font-family: Verdana;
+    font-size: small;
+}
+
+hr {
+    height: 2px;
+}
+
+.sailor-gifs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#venus-gif {
+    height: 6rem;
+    padding-top: 10px;
+}
+
+#jupiter-gif {
+    height: 7.5rem;
+    padding-bottom: 20px;
+}
+
+#moon-gif {
+    height: 7.5rem;
+    padding-bottom: 40px;
+}
+
+#mercury-gif {
+    height: 7.5rem;
+    padding-bottom: 20px;
+}
+
+#mars-gif {
+    height: 5rem;
+}
+
+.divider {
+    width: 30rem;
+}
+
+.courier {
+    font-family: 'Courier New', Arial;
+}
+
+#thanks-stamp {
+    padding: 10px;
+    width: 10rem;
+}
+
+#bottom-links {
+    margin-bottom: 0;
+}

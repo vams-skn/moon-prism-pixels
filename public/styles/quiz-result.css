@@ -1,0 +1,48 @@
+* {
+    cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1073.cur), auto !important;
+}
+
+.cursor-point {
+    cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1070.cur), auto !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB0B0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9446ac; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+}
+
+.result-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#sailor-name {
+    font-weight: bold;
+}
