@@ -1,0 +1,135 @@
+.door {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol394.cur), auto !important;
+}
+
+.door.locked {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-5/hol453.cur), auto !important;
+    filter: grayscale(1) brightness(0.5);
+}
+
+body {
+    background: linear-gradient(90deg, #F6F6F6 0%, #FFE2E2 50%, #FFC7C7 150%);
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+.subtitle {
+    opacity: 0.8;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.overlay.hidden {
+    display: none;  
+}
+
+.modal {
+    width: min(32rem, 90vw);
+    height: 20rem;
+    background: #F49BAB;
+    border: 2px solid #FFE1E0;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.modal h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.modal h3 {
+    margin-top: 1rem;
+    font-weight: normal;
+    opacity: 0.9;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.modal p {
+    margin-top: 1.5rem;
+    line-height: 1.4;
+    font-size: 16px;
+    text-align: left;
+}
+
+hr {
+    max-width: 30rem;
+    background-color: #ffffff;
+    height: 1px;
+    border: none;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 13rem);
+    gap: 2rem, 4rem;
+    margin-inline: auto;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 800px) {
+    .calendar {
+        grid-template-columns: repeat(3, 8rem);
+    }
+}
+
+@media (max-width: 600px) {
+    .calendar {
+        grid-template-columns: repeat(3, 5rem);
+    }
+}
+
+.door {
+    width: min(10rem, 18vw);
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.title-row img {
+    height: 60px;
+}
+
+.site-footer {
+    color: #000000;
+    padding-bottom: 2rem;
+    font-size: smaller;
+    max-width: 15rem;
+    margin: auto;
+}
+
+a {
+    color: #7F55B1;
+    text-decoration: underline;
+}

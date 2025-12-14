@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly Polls</title>
+    <link rel="icon" href="../../assets/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../styles/fun.css" />
+    <title>Fun Corner</title>
 </head>
-<body style="background-color: #000000; color: white; text-align: center;">
-    <h1>This site is under construction!</h1>
-    <p>Fun games related to each Guardian's powers will be added soon!</p>
+<body>
+    <div class="title-row">
+        <img style="height: 60px;" src="../../assets/gifs/twinklingstar.gif">
+            <h1>New Year's Reset Advent Calendar</h1>
+        <img style="height: 60px;" src="../../assets/gifs/twinklingstar.gif">
+    </div>
+    
+    <p class="subtitle">an advent calendar for a digital and physical reset</p>
+    
+    <div class="center">
+        <div class="calendar">
+        
+            <div class="door" data-day="1" style="background-image:url('../../assets/pixels/bow.png')"></div>
+            <div class="door" data-day="2" style="background-image:url('../../assets/pixels/melody.png')"></div>
+            <div class="door" data-day="3" style="background-image:url('../../assets/pixels/mail.png')"></div>
+            <div class="door" data-day="4" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="5" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+
+            <div class="door" data-day="6" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="7" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="8" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="9" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="10" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+
+            <div class="door" data-day="11" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="12" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="13" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="14" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+            <div class="door" data-day="15" style="background-image:url('../../assets/pixels/mystery.png')"></div>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay hidden">
+        <div class="modal">
+            <h2 id="modal-day">DAY 1</h2>
+            <h3 id="modal-title"></h3>
+            <p id="modal-text"></p>
+            <hr>
+            <p id="extra-text"></p>
+        </div>
+    </div>
+
+    <script src="../../scripts/fun.js"></script>
 </body>
+
+<footer class="site-footer">
+    this site is handmade! ✧ <a href="https://www.pixilart.com/" target="_blank">pixels</a>, code, and <a href="https://readbyvaish.substack.com/p/a-gift" target="_blank">idea</a> by me ✧ hosted on <a href="https://neocities.org/browse" target="_blank">neocities</a>
+</footer>
 </html>
